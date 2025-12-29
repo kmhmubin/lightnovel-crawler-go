@@ -1,0 +1,26 @@
+#Binaries
+*.exe
+lncrawler
+lightnovel-crawler-go.exe
+lightnovel-crawler-go
+lightnovel-crawler
+
+#IDE files
+.vscode/
+
+#OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+#Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+#Log files
+logs
+*.log
