@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import "lncrawler/cmd"
 
 func main() {
-	fmt.Println("Hello, nigga")
+	cmd.Execute()
 }
