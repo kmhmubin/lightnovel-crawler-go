@@ -4,6 +4,7 @@ package models
 type Novel struct {
 	Title    string `json:"title"`
 	Author   string `json:"author"`
+	URL      string `json: "url"`
 	CoverURL string `json:"cover_url"`
 
 	// if a novel has a list of volumes
